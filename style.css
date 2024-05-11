@@ -5,6 +5,15 @@ body {
   justify-content: center;
   align-items: center;
 }
+.big-wrapper {
+  width: 600px;
+  height: 600px;
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
 .wrapper {
   width: 200px;
   height: 200px;
@@ -21,13 +30,29 @@ body {
 }
 .coin-1 {
   top: 20%;
-  left: 30%;
+  left: 20%;
 }
 .coin-2 {
-  top: 20%;
-  left: 50%;
+  top: 40%;
+  left: 20%;
 }
 .coin-3 {
-  top: 37.5%;
+  top: 60%;
+  left: 20%;
+}
+.coin-4 {
+  top: 60%;
   left: 40%;
+}
+.coin-5 {
+  top: 60%;
+  left: 60%;
+}
+.coin-6 {
+  top: 40%;
+  left: 60%;
+}
+.coin-7 {
+  top: 20%;
+  left: 60%;
 }
